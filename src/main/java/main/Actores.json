@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Skywalker",
+    "altura": 1.72,
+    "nacimiento": 1951
+  },
+  {
+    "nombre": "Han",
+    "altura": 1.85,
+    "nacimiento": 1942
+  },
+  {
+    "nombre": "Leia",
+    "altura": 1.55,
+    "nacimiento":1956
+  }
+]
