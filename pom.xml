@@ -7,6 +7,10 @@
     <groupId>-prefijo--laboratorio-star-wars-app</groupId>
     <artifactId>-prefijo--laboratorio-star-wars-app</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
     <name>-prefijo--laboratorio-star-wars-app</name>
     <description>-prefijo--laboratorio-star-wars-app</description>
 

@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="-prefijo--laboratorio-star-wars-app" target="1.5" />
+      <module name="-prefijo--laboratorio-star-wars-app" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

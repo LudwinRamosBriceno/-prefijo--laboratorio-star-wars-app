@@ -12,21 +12,23 @@ public class JsonToJava {
         ObjectMapper mapper = new ObjectMapper();
 
         //File Json = new File("Actores.json");
-
-        BufferedReader br = new BufferedReader(new FileReader("Actores.json"));
-
-        String Json="";
-
-        String b;
-        while ((b=br.readLine())!=null){
-            Json+=b;
-        }
-        br.close();
-
-
-        try {
+        try{
+            BufferedReader br = new BufferedReader(new FileReader("R:\\TEC - II 2021\\Algoritmos y estructura de datos I\\Asignaciones\\Actividad en clase 2\\-prefijo--laboratorio-star-wars-app\\src\\main\\java\\main\\Actores.json"));
+            String Json="";
+            String b;
+            while ((b=br.readLine())!=null){
+                Json+=b;
+            }
+            br.close();
             Registro actores[] = mapper.readValue(Json, Registro[].class);
-        } catch (JsonMappingException e) {
+
+            for (Registro itr:actores){
+                System.out.println("Nombre: "+itr.getNombre());
+                System.out.println("Nacimiento: "+itr.getNacimiento());
+                System.out.println("Altura: "+itr.getAltura());
+            }
+        }catch (FileNotFoundException e){
+        }catch (JsonMappingException e) {
 
         }
         //System.out.println("Nombre: " + edward.getNombre());

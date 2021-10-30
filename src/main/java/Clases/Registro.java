@@ -6,11 +6,11 @@ public class Registro {
     private double altura;
     private int nacimiento;
 
-    public Registro(String nombre, double altura, int nacimiento) {
+    /*public Registro(String nombre, double altura, int nacimiento) {
         this.nombre = nombre;
         this.altura = altura;
         this.nacimiento = nacimiento;
-    }
+    }*/
 
     public String getNombre() {
         return nombre;
